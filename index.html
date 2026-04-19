@@ -4,12 +4,37 @@
   <meta charset="UTF-8">
   <title>Ultimate List of Large Numbers</title>
 
-  <!-- FONT -->
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
-
-  <script src="https://kit.fontawesome.com/3df9cfc11d.js" crossorigin="anonymous"></script>
 
   <style>
+  @font-face {
+  font-family: "Computer Modern";
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+}
+
+@font-face {
+  font-family: "Computer Modern";
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsx.otf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Computer Modern";
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsi.otf');
+  font-style: italic, oblique;
+}
+
+@font-face {
+  font-family: "Computer Modern";
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunbxo.otf');
+  font-weight: bold;
+  font-style: italic, oblique;
+}
+
+@font-face {
+  font-family: "Computer Modern";
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunbxo.otf');
+  font-style: roman;
+}
     * {
       box-sizing: border-box;
       margin: 0;
@@ -17,7 +42,7 @@
     }
 
     body {
-      font-family: "JetBrains Mono", monospace;
+      font-family: "Computer Modern", roman;
       background: radial-gradient(circle at top, #1b1b14, #000);
       color: #0000ff;
       min-height: 100vh;
@@ -61,7 +86,7 @@ header {
   padding: 12px 14px;
   width: 180px;
 
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Computer Modern", roman;
   color: #0000ff;
 
   backdrop-filter: blur(6px);
@@ -142,3 +167,4 @@ header {
 <center><h1 id="ULLN 1">ULTIMATE LIST OF LARGE NUMBERS</h1></center>
 <script src="numbers.js"></script>
 </body>
+</html>
