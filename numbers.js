@@ -15,6 +15,5 @@ const List1 = [["Zero", "0"], ["Reciprocal of Croutonplex (ill-defined)", "<sup>
                ["2 divided by Sam\'s Number (ill-defined)", "<sup>2</sup>&frasl;<sub>Sam\'s Number<sub>"], ["Destructive and Powerful Mitskiillion (I\'m not joking, this is the name) divided by Sam\'s Number (ill-defined)", "<sup>Destructive and Powerful Mitskiillion</sup>&frasl;<sub>Sam\'s Number</sub>"], ["Reciprocal of Destructive and Powerful Mitskiillion (I\'m not joking, this is the name) (ill-defined)", "<sup>1</sup>&frasl;<sub>Destructive and Powerful Mitskiillion</sub>"]];
 var x = 0;
 for(x = 0; x < List1.length; x++) {
-   document.body.innerHTML += '<p id=`Number${x}`>'+List1[x][0].toString()+', '+List1[x][1].toString()+'</p>';
+   document.body.innerHTML += '<p id=`Number${x}`>'+(x+1).toString+'.'+List1[x][0].toString()+', '+List1[x][1].toString()+'</p>';
 }
-   document.body.innerHTML += '<p id=`TotalNumbers1`>'+'Total Entries: '+(x+1).toString()+'</p>';
